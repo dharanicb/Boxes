@@ -1,0 +1,35 @@
+/* Write your code here. */
+.box {
+  text-align: center;
+  color: #ffffff;
+}
+.properties {
+  background-color: #fbbf24;
+  padding: 15px;
+  margin: 5px;
+  height: 150px;
+  width: 300px;
+}
+
+.properties1 {
+  background-color: #38bdf8;
+  padding: 15px;
+  margin: 5px;
+  height: 250px;
+  width: 400px;
+}
+.properties2 {
+  background-color: #ec4899;
+  padding: 15px;
+  margin: 5px;
+  height: 350px;
+  width: 500px;
+}
+.text-content {
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
