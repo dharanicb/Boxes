@@ -1,10 +1,15 @@
 /* Write your code here. */
 .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: #ffffff;
 }
 .properties {
   background-color: #fbbf24;
+  align-self: end;
   padding: 15px;
   margin: 5px;
   height: 150px;
@@ -13,6 +18,7 @@
 
 .properties1 {
   background-color: #38bdf8;
+  align-self: center;
   padding: 15px;
   margin: 5px;
   height: 250px;
@@ -20,6 +26,7 @@
 }
 .properties2 {
   background-color: #ec4899;
+  align-self: flex-start;
   padding: 15px;
   margin: 5px;
   height: 350px;
@@ -32,4 +39,10 @@
 .flex-container {
   display: flex;
   flex-direction: row;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 29px;
+  text-align: center;
+  color: #0f172a;
 }
